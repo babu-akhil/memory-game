@@ -66,6 +66,7 @@ function Gameboard(props) {
     const id = e.currentTarget.id
     checkMemory(id);
     shuffleCards();
+    console.log(stateCards)
   };
 
   return (<div className = "gameboard-container">
@@ -78,6 +79,7 @@ function Gameboard(props) {
             name={card.name}
             id={card.id}
             onClick={Update}
+            key = {card.id}
           />
         );
       })}
