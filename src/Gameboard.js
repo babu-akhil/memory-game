@@ -2,14 +2,24 @@ import RickImage from "./images/Rick.png";
 import MortyImage from "./images/Morty.jpg";
 import JessicaImage from "./images/Jessica.png";
 import SummerImage from "./images/Summer.jpg";
+import BethImage from "./images/Beth.png"
+import BirdPersonImage from "./images/Birdperson.jpg"
+import PickleRickImage from "./images/Pickle_Rick.jpeg"
+import MrPoopyButtholeImage from "./images/PoppyButthole.jpg"
+import JerryImage from "./images/Jerry.png"
+
 import ImageComponent from "./Card";
 import { useEffect, useState } from "react";
 
 let Cards = [
-  { image: RickImage, name: "Rick", id: 0 },
-  { image: MortyImage, name: "Morty", id: 1 },
+  { image: RickImage, name: "Rick Sanchez", id: 0 },
+  { image: MortyImage, name: "Morty Smith", id: 1 },
   { image: JessicaImage, name: "Jessica", id: 2 },
-  { image: SummerImage, name: "Summer", id: 3 },
+  { image: SummerImage, name: "Summer Smith", id: 3 },
+  { image: BethImage, name: "Beth Smith", id: 4 },
+  { image: JerryImage, name: "Jerry Smith", id: 5 },
+  { image: PickleRickImage, name: "Pickle Rick", id: 6 },
+  { image: MrPoopyButtholeImage, name: "Mr Poopy Butthole", id: 7 },
 ];
 
 // Shuffle function is Fisher-Yates algorithm modified to give only derangements
