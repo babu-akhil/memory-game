@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.2d871fc8.chunk.css",
+    "main.js": "/memory-game/static/js/main.9a7ba734.chunk.js",
+    "main.js.map": "/memory-game/static/js/main.9a7ba734.chunk.js.map",
+    "runtime-main.js": "/memory-game/static/js/runtime-main.780cb48f.js",
+    "runtime-main.js.map": "/memory-game/static/js/runtime-main.780cb48f.js.map",
+    "static/css/2.3c2d599a.chunk.css": "/memory-game/static/css/2.3c2d599a.chunk.css",
+    "static/js/2.8676790a.chunk.js": "/memory-game/static/js/2.8676790a.chunk.js",
+    "static/js/2.8676790a.chunk.js.map": "/memory-game/static/js/2.8676790a.chunk.js.map",
+    "index.html": "/memory-game/index.html",
+    "static/css/2.3c2d599a.chunk.css.map": "/memory-game/static/css/2.3c2d599a.chunk.css.map",
+    "static/css/main.2d871fc8.chunk.css.map": "/memory-game/static/css/main.2d871fc8.chunk.css.map",
+    "static/js/2.8676790a.chunk.js.LICENSE.txt": "/memory-game/static/js/2.8676790a.chunk.js.LICENSE.txt",
+    "static/media/Beth.a65a89e0.png": "/memory-game/static/media/Beth.a65a89e0.png",
+    "static/media/Birdperson.b3edd344.jpg": "/memory-game/static/media/Birdperson.b3edd344.jpg",
+    "static/media/Jerry.e02246a5.png": "/memory-game/static/media/Jerry.e02246a5.png",
+    "static/media/Jessica.e3b970f3.png": "/memory-game/static/media/Jessica.e3b970f3.png",
+    "static/media/Morty.31b475c2.jpg": "/memory-game/static/media/Morty.31b475c2.jpg",
+    "static/media/Pickle_Rick.7c1fbd9f.jpeg": "/memory-game/static/media/Pickle_Rick.7c1fbd9f.jpeg",
+    "static/media/PoppyButthole.e16b3213.jpg": "/memory-game/static/media/PoppyButthole.e16b3213.jpg",
+    "static/media/Rick.f1bcce17.png": "/memory-game/static/media/Rick.f1bcce17.png",
+    "static/media/Summer.ef5f5761.jpg": "/memory-game/static/media/Summer.ef5f5761.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.780cb48f.js",
+    "static/css/2.3c2d599a.chunk.css",
+    "static/js/2.8676790a.chunk.js",
+    "static/css/main.2d871fc8.chunk.css",
+    "static/js/main.9a7ba734.chunk.js"
+  ]
+}
