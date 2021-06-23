@@ -48,6 +48,7 @@ function shuffle(array) {
 function Gameboard(props) {
   let [stateCards, setCards] = useState(Cards);
   let [clickHistory, setClickHistory] = useState([]);
+  let [bestScore, setBestScore] = useState(0);
   let [score, setScore] = useState(0);
 
   let checkMemory = (id) => {
@@ -63,6 +64,7 @@ function Gameboard(props) {
         setClickHistory(newClickHistory)
         let newScore = score + 1
         setScore(newScore);
+        if(newScore>bestScore) {setBestScore(newScore)}
     }
   };
 
@@ -76,10 +78,10 @@ function Gameboard(props) {
     const id = e.currentTarget.id
     checkMemory(id);
     shuffleCards();
-    console.log(stateCards)
   };
 
   return (<div className = "gameboard-container">
+      best score: {bestScore} <br></br>
       score: {score}
     <div className="nes-container gameboard">
       {stateCards.map((card) => {
